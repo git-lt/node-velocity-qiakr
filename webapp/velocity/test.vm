@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="//o561topwo.qnssl.com/favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no"  />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name='apple-touch-fullscreen' content='yes'>
+<meta name="full-screen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="format-detection" content="address=no"/>
+<script src="//res.qiakr.com/plugins/jquery/jquery-2.0.0.min.js"></script>
+</head>
+<body>
+	<div id="uploader" class="wu-example">
+	    <!--用来存放文件信息-->
+	    <div id="thelist" class="uploader-list"></div>
+	    <div class="btns">
+	        <div id="filePicker">选择文件</div>
+	    </div>
+	</div>
+	<div id="process">123123123</div>
+
+
+	<script>
+	</script>
+</body>
+</html>

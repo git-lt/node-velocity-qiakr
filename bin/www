@@ -1,0 +1,3 @@
+var current_path = process.cwd();
+console.log(current_path + '/app.js');
+require('runkoa')(current_path + '/app.js' )

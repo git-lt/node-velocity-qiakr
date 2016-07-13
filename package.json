@@ -1,0 +1,31 @@
+{
+  "name": "velocity_static_koa",
+  "version": "1.0.0",
+  "description": "base node velocity engine static project",
+  "main": "app.js",
+  "scripts": {
+    "start": "runkoa bin/www"
+  },
+  "author": "935486956@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "babel-register": "^6.9.0",
+    "koa": "^1.2.0",
+    "koa-body": "^1.4.0",
+    "koa-logger": "^1.3.0",
+    "koa-onerror": "^2.0.0",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0",
+    "mockjs": "^1.0.1-beta2",
+    "runkoa": "^1.5.2",
+    "velocity": "^0.7.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.0.1"
+  }
+}
