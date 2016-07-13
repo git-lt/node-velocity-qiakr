@@ -4,7 +4,7 @@
   "description": "base node velocity engine static project",
   "main": "app.js",
   "scripts": {
-    "start": "runkoa bin/www"
+    "start": "node app"
   },
   "author": "935486956@qq.com",
   "license": "ISC",
@@ -21,7 +21,6 @@
     "koa-router": "^5.4.0",
     "koa-static": "^2.0.0",
     "mockjs": "^1.0.1-beta2",
-    "runkoa": "^1.5.2",
     "velocity": "^0.7.2"
   },
   "devDependencies": {

@@ -16,7 +16,7 @@ var app = koa();
 
 app
 	.use(logger())
-  .use(staticServer(__dirname + '/webapp'))
+	.use(staticServer(__dirname + '/webapp'))
 	.use(webRouter.routes());
 
 onerror(app);

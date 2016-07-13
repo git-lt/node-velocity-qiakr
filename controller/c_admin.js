@@ -3,7 +3,7 @@ var viewsPath  = process.cwd()+'/webapp/velocity/';
 
 let c_admin = {
   customerExchange: function *(next){
-    console.log(customerExchange);
+    console.log('customerExchange');
     yield this.body = this.path;
     // this.body = new Engine({ template:'' }).render(data);
   },
